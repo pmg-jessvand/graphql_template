@@ -15,10 +15,5 @@ module.exports = gql`
 
   type DummyItem {
     id: ID!
-    #authors: [Author]! Valid [], [...author data]
-    #authors: [Author!] [...author data]
-    status: Status
-    title: String
-    releaseDate: Date
   }
 `
